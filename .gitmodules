@@ -1,4 +1,4 @@
 [submodule "bootstrap"]
-	path = bootstrap
+	path = _bootstrap
 	url = https://github.com/twitter/bootstrap.git
 	branch = 3.0.0-wip
