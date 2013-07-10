@@ -4,6 +4,8 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>{{ page.title }}</title>
+        {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+        <meta name="author" content="{{ site.author.name }}">
         <meta name="viewport" content="width=device-width">
         <link href="/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
     </head>
@@ -11,11 +13,19 @@
 
         <div class="container">
           <div class="site">
-            <div class="header">
-              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-              <a class="extra" href="/">home</a>
+            <!-- le navbar -->
+            <div class="navbar">
+              <div class="navbar-inner">
+                <a class="brand" href="#">{{site.name}}</a>
+                <ul class="nav">
+                  <li class="active"><a href="#">Home</a></li>
+                  <li><a href="#">Link</a></li>
+                  <li><a href="#">Link</a></li>
+                </ul>
+              </div>
             </div>
 
+            <!-- end navbar -->
                 {{ content }}
 
             <div class="footer">

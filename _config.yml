@@ -1,3 +1,7 @@
 name: Your New Jekyll Site
 pygments: true
 exclude: ['Gemfile' , 'Gemfile.lock', 'config.rb', 'package.json', 'sass' , 'src', 'node_modules']
+
+
+author:
+  name: "Northeastern University Libraries"
