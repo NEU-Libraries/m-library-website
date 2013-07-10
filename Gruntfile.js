@@ -13,9 +13,18 @@ module.exports = function (grunt) {
         },
       },
     },
+    watch: {
+      less: {
+        files: "_less/*.less",
+        tasks: "recess:dist",
+      }
+
+    }
+
   });
 
   grunt.loadNpmTasks('grunt-recess');
-
+  grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.registerTask('default',  ['recess']);
+
 };
