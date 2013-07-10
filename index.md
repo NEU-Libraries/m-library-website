@@ -3,7 +3,6 @@ layout: default
 title: Your New Jekyll Site
 ---
 
-
 #### [Hours and Directions](http://www.lib.neu.edu/m/directions.html)
 * * * 
 #### [Mobile Research](http://www.lib.neu.edu/m/journals.html)
