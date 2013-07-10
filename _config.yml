@@ -1,6 +1,6 @@
 name: Your New Jekyll Site
 pygments: true
-exclude: ['Gruntfile', 'package.json', 'node_modules']
+exclude: ['Gruntfile.js', 'package.json', 'node_modules']
 
 
 author:
