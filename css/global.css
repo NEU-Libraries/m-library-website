@@ -6439,9 +6439,21 @@ a [class*=" icon-"] {
 }
 
 .nu-library-logo {
+  display: block;
   font: 0/0 a;
   color: transparent;
   text-shadow: none;
+  background: url(../images/library-logo/nu-libraries-lockup-color.svg) no-repeat top left;
   background-color: transparent;
+  background-size: contain;
   border: 0;
+}
+
+.nu-library-logo:hover,
+.nu-library-logo:focus {
+  color: transparent;
+}
+
+.no-svg {
+  background-image: url(../images/library-logo/nu-libraries-lockup.png);
 }

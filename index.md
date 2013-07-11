@@ -7,7 +7,6 @@ title: Home
   
 </a>
 
-# What is up y'all?
 
 
 <a class="twitter-timeline" href="https://twitter.com/ClubSnell" data-widget-id="355320525607796736">Tweets by @ClubSnell</a>
