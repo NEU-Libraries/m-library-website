@@ -1,8 +1,8 @@
 ---
 layout: default
-category: [static_page, main_page]
 title: News and Events
 permalink: /news_and_events.html
+category: navbar_main_element
 ---
 
 

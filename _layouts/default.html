@@ -15,25 +15,16 @@
             {% include site_header.html %}
           </header>
 
-            <!-- le navbar -->
-            <div class="navbar">
-              <div class="navbar-inner">
-                <a class="brand" href="#">{{site.name}}</a>
-                <ul class="nav">
-                  <li class="active"><a href="#">Home</a></li>
-                  <li><a href="#">Link</a></li>
-                  <li><a href="#">Link</a></li>
-                </ul>
-              </div>
-            </div>
-            <!-- end navbar -->
+              {% include sitewide_navbar.html %}
+
+
             <div class="row">
               <div class="col-lg-9">
                 {{ content }}
               </div>
             </div>
-
         </div> <!-- /container -->
+
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="{{ site.baseurl }}js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
     </body>

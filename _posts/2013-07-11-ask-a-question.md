@@ -2,6 +2,7 @@
 layout: default
 title: Ask a Question
 permalink: /ask_a_question.html
+category: navbar_main_element
 ---
 
 ### Ask a Question 
