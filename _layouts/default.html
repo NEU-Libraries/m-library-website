@@ -13,38 +13,12 @@
 
         <div class="container">
           <div class="site">
-            <!-- le navbar -->
-            <div class="navbar">
-              <div class="navbar-inner">
-                <a class="brand" href="#">{{site.name}}</a>
-                <ul class="nav">
-                  <li class="active"><a href="#">Home</a></li>
-                  <li><a href="#">Link</a></li>
-                  <li><a href="#">Link</a></li>
-                </ul>
-              </div>
-            </div>
-
-            <!-- end navbar -->
+            {% include sitewide_navbar.html %}
                 {{ content }}
-
-            <div class="footer">
-              <div class="contact">
-                <p>
-                  Your Name<br />
-                  What You Are<br />
-                  your@email.com
-                </p>
-              </div>
-              <div class="contact">
-                <p>
-                  <a href="http://github.com/yourusername/">github.com/yourusername</a><br />
-                  <a href="http://twitter.com/yourusername/">twitter.com/yourusername</a><br />
-                </p>
-              </div>
-            </div>
+            {% include sitewide_footer.html %}
           </div>
         </div> <!-- /container -->
+        
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="{{ site.baseurl }}js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
     </body>

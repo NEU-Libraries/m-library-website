@@ -2,6 +2,7 @@
 layout: default
 title: Renew/View My Account
 permalink: /renew_view_account.html
+category: navbar_main_element
 ---
 
 

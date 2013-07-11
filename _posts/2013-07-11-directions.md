@@ -2,6 +2,7 @@
 layout: default
 title: Directions
 permalink: /directions.html
+category: navbar_main_element
 ---
 
 
