@@ -19,12 +19,24 @@ module.exports = function (grunt) {
         tasks: "recess:dist",
       }
 
-    }
+    },
+    jekyll:{
+      serve:{
+        options: {
+          config: ['_config.yml','_config_dev.yml'],
+          server: true,
+          baseurl: "/",
+          watch: true,
+        },
+      },
+    },
 
   });
 
   grunt.loadNpmTasks('grunt-recess');
   grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.registerTask('default',  ['recess']);
+  grunt.loadNpmTasks('grunt-jekyll');
+  grunt.registerTask('default',  ['recess', 'jekyll:serve' ]);
+  grunt.registerTask('jekll-serve', ['jekyll:serve']);
 
 };
