@@ -16,4 +16,4 @@ Available 24/7
 
 Email [Library-Help@neu.edu](mailto:Library-Help@neu.edu) 
 
-[Go Back](http://www.lib.neu.edu/m/text_call_lib.html) 
+[Go Back]( {% post_url 2013-07-11-index %} ) 

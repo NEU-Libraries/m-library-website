@@ -7,7 +7,9 @@ category: navbar_main_element
 
 
 ### News and Events 
-*** 
+
+* * *
+
 #### [Meet the Author and More](http://library.northeastern.edu/news-events)
 Readings, dialogue on significant contemporary questions, and other events sponsored by Snell Library and our campus partners.
 
@@ -23,4 +25,4 @@ Our Library blog
 
 * * * 
 
-[Go Back](http://www.lib.neu.edu/m/index.html) 
+[Go Back]( {% post_url 2013-07-11-index %} ) 

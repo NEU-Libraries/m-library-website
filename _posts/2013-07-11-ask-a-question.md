@@ -9,24 +9,24 @@ category: navbar_main_element
 
 * * * 
 
-#### [Text a Librarian](http://www.lib.neu.edu/m/Text_Librarian.html) 
+#### [Text a Librarian]( {% post_url 2013-07-11-text-a-librarian %} ) 
 (9am to 9pm M-F, 12-5 Sat, 12-8 Sun)
 
 * * *
 
-#### [Call a Librarian](http://www.lib.neu.edu/m/Call_Librarian.html)
+#### [Call a Librarian]( {% post_url 2013-07-11-call-a-librarian %} )
 (9am to 9pm M-F, 12-5 Sat, 12-8 Sun) 
 
 * * *
 
-#### [Email a Librarian](http://www.lib.neu.edu/m/Email_Librarian.html) 
+#### [Email a Librarian]( {% post_url 2013-07-11-email-a-librarian %} ) 
 Response by next business day 
 
 * * *
 
-#### [Tech Support](http://www.lib.neu.edu/m/Tech_Support.html) 
+#### [Tech Support]( {% post_url 2013-07-11-tech-support %} ) 
 Available 24/7
 
 * * * 
 
-[Go Back](http://www.lib.neu.edu/m/index.html) 
+[Go Back]( {% post_url 2013-07-11-index %} ) 
