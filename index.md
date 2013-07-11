@@ -1,13 +1,7 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: Home
 ---
 
-#### [Hours and Directions](http://www.lib.neu.edu/m/directions.html)
-* * * 
-#### [Mobile Research](http://www.lib.neu.edu/m/journals.html)
-* * * 
-#### [Renew/View My Account](http://www.lib.neu.edu/m/renew.html) 
-* * * 
-#### [Ask a Question](http://www.lib.neu.edu/m/text_call_lib.html)
-* * * 
+<a class="twitter-timeline" href="https://twitter.com/ClubSnell" data-widget-id="355320525607796736">Tweets by @ClubSnell</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
