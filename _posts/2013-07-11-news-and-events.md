@@ -23,4 +23,4 @@ Our Library blog
 
 * * * 
 
-[Go Back](http://www.lib.neu.edu/m/index.html) 
+[Go Back]( {% post_url 2013-07-11-index %} ) 
