@@ -1,4 +1,7 @@
 ---
+layout: default 
+title: Call a Librarian
+permalink: /call_a_librarian.html
 ---
 
 ### Call a Librarian 

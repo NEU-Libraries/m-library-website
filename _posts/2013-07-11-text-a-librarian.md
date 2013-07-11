@@ -1,4 +1,7 @@
 ---
+layout: default
+title: Text a Librarian 
+permalink: /text_a_librarian.html 
 ---
 
 ### Text a Librarian 

@@ -1,4 +1,7 @@
 ---
+layout: default
+title: Ask a Question
+permalink: /ask_a_question.html
 ---
 
 ### Ask a Question 
