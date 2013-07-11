@@ -38,6 +38,9 @@ module.exports = function (grunt) {
         flatten: true,
       }
     }
+    uglify: {
+
+    }
 
 
   });
@@ -46,6 +49,7 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-jekyll');
   grunt.loadNpmTasks('grunt-contrib-copy');
+  grunt.loadNpmTassk('grunt-contrib-uglify');
 
 
   grunt.registerTask('default',  ['copy:fontAwesome','recess', 'jekyll:serve' ]);
