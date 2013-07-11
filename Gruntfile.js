@@ -38,9 +38,6 @@ module.exports = function (grunt) {
         flatten: true,
       }
     }
-    uglify: {
-
-    }
 
 
   });

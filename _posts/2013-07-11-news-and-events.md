@@ -5,6 +5,8 @@ permalink: /news_and_events.html
 category: navbar_main_element
 ---
 
+{{ include twitter_widget.md }}
+
 
 ### News and Events 
 
