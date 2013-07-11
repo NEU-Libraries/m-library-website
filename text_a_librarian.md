@@ -1,7 +1,6 @@
 ---
 ---
 
-
 ### Text a Librarian 
 1. Text us at 66746.  
 2. Begin your message with the word **husky**.  

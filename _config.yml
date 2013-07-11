@@ -1,6 +1,8 @@
 name: Your New Jekyll Site
+safe: true
+lsi: false
 pygments: true
-exclude: ['Gruntfile.js', 'package.json', 'node_modules']
+exclude: ['Gruntfile.js', 'package.json', 'node_modules', 'readme.md']
 
 
 author:
