@@ -3,5 +3,5 @@
 	url = https://github.com/twitter/bootstrap.git
 	branch = 3.0.0-wip
 [submodule "Font-Awesome"]
-	path = font-awesome
+	path = _font_awesome
 	url = https://github.com/FortAwesome/Font-Awesome.git
