@@ -1,4 +1,7 @@
 ---
+layout: default
+title: Tech Support
+permalink: /tech_support.html
 ---
 
 ### Tech Support 

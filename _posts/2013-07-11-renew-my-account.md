@@ -1,4 +1,7 @@
 ---
+layout: default
+title: Renew/View My Account
+permalink: /renew_view_account.html
 ---
 
 

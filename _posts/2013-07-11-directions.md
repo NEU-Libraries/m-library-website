@@ -1,4 +1,7 @@
 ---
+layout: default
+title: Directions
+permalink: /directions.html
 ---
 
 

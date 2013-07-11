@@ -1,4 +1,7 @@
 ---
+layout: default
+title: Email a Librarian
+permalink: /email_librarian.html
 ---
 
 
