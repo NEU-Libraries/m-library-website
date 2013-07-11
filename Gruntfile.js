@@ -30,13 +30,25 @@ module.exports = function (grunt) {
         },
       },
     },
+    copy: {
+      fontAwesome: {
+        src: '_font_awesome/font/*',
+        dest: 'font/',
+        expand: true,
+        flatten: true,
+      }
+    }
+
 
   });
 
   grunt.loadNpmTasks('grunt-recess');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-jekyll');
-  grunt.registerTask('default',  ['recess', 'jekyll:serve' ]);
+  grunt.loadNpmTasks('grunt-contrib-copy');
+
+
+  grunt.registerTask('default',  ['copy:fontAwesome','recess', 'jekyll:serve' ]);
   grunt.registerTask('jekll-serve', ['jekyll:serve']);
 
 };
