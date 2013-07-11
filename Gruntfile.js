@@ -15,7 +15,7 @@ module.exports = function (grunt) {
     },
     watch: {
       less: {
-        files: "_less/*.less",
+        files: "_less/**.less",
         tasks: "recess:dist",
       }
 

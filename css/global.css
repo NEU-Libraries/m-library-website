@@ -6437,3 +6437,11 @@ a [class*=" icon-"] {
 .icon-renren:before {
   content: "\f18b";
 }
+
+.nu-library-logo {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
