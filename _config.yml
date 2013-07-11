@@ -5,5 +5,7 @@ pygments: true
 exclude: ['Gruntfile.js', 'package.json', 'node_modules', 'readme.md']
 
 
+baseurl: "http://nu-lts.github.io/m-library-website"
+
 author:
   name: "Northeastern University Libraries"
