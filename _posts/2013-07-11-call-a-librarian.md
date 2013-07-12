@@ -16,4 +16,4 @@ Sun: 12:00pm-8:00pm
 
 *(Subject to change during intersessions and holidays)*
 
-[Go Back]( {% post_url 2013-07-11-index %} ) 
+[Back to Ask a Question]( {% post_url 2013-07-11-ask-a-question %} ) 

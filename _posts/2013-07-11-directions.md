@@ -47,4 +47,4 @@ Renaissance Garage
 835 Columbus Ave.   
 Boston, MA 02120  
 
-[Go Back]( {% post_url 2013-07-11-index %} ) 
+[Home]( {% post_url 2013-07-11-index %} ) 
