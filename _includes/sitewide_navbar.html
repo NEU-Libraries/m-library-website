@@ -1,18 +1,19 @@
-<div class="row">
-  <div class="col-lg-12">
-    <div class='navbar'>
-      <div class="container">
-        <a class='navbar-brand' href='/'>ICON HERE</a>
-        <ul class='nav navbar-nav'>
-        	{% for post in site.posts %}
-        		{%if post.categories contains 'navbar_main_element' and post.url == page.url %}
-        			<li class=active><a href= {{post.url }}>{{ post.title }}</a></li>
-        		{% elsif post.categories contains 'navbar_main_element' %}
-        			<li><a href= {{ post.url }}>{{ post.title }}</a></li>
-        		{% endif %}
-          	{% endfor %}
-        </ul>
-      </div>
+<div class='row'>
+  <div class='col-lg-12'>
+    <div class='container'>
+      <a class='navbar-brand' href='/'>ICON HERE</a>
+      <ul class='nav navbar-nav'>
+        <li>
+          <a href= {% post_url 2013-07-11-directions %}>Directions</a>
+        </li>
+        <li {% if page.url == post_url(2013-07-11-ask-a-question) %} class='active' {% endif %}>
+          <a href={% post_url 2013-07-11-ask-a-question %}>Ask a Question</a> 
+        </li>
+        <li {% if page.url == post_url(2013-07-11-news-and-events) %} class='active' {% endif %}>
+          <a href={% post_url 2013-07-11-news-and-events %}>News and Events</a>
+        </li>
+      </ul>
     </div>
   </div>
 </div>
+
