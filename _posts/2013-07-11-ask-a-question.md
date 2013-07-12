@@ -29,4 +29,4 @@ Available 24/7
 
 * * * 
 
-[Go Back]( {% post_url 2013-07-11-index %} ) 
+[Home]( {% post_url 2013-07-11-index %} ) 

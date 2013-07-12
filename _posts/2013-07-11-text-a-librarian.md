@@ -9,4 +9,4 @@ permalink: /text_a_librarian.html
 2. Begin your message with the word **husky**.  
 3. Type your question.  
 
-[Go Back]( {% post_url 2013-07-11-index %} )  
+[Back to Ask a Question]( {% post_url 2013-07-11-ask-a-question %} )  

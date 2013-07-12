@@ -12,4 +12,4 @@ Connect to [your library account](http://onesearch.library.northeastern.edu/prim
 
 Or call (617) 373-8778 for assistance.   
 
-[Go Back]( {% post_url 2013-07-11-index %} ) 
+[Home]( {% post_url 2013-07-11-index %} ) 
