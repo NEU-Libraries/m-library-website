@@ -6456,6 +6456,7 @@ body {
   padding: 0 0.5em;
   margin: 0 0.5em;
   background-color: #FFFFFF;
+  border: #999999 1px solid;
 }
 
 img {
@@ -6470,6 +6471,11 @@ header {
 
 header a small {
   font-size: 65%;
+}
+
+header.row {
+  margin-right: -15px;
+  margin-left: -15px;
 }
 
 .brand-logo {
