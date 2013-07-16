@@ -3,9 +3,13 @@ safe: true
 lsi: false
 pygments: true
 exclude: ['Gruntfile.js', 'package.json', 'node_modules', 'readme.md']
-
+markdown: rdiscount
 
 baseurl: "http://nu-lts.github.io/m-library-website/"
 desktopsite: "http://library.northeastern.edu"
 author:
   name: "Northeastern University Libraries"
+primo:
+  url: "http://onesearch.northeastern.edu"
+  institution-code: "NEU"
+  view-code: "NU"

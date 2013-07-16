@@ -4,47 +4,31 @@ title: Directions
 permalink: /directions.html
 category: navbar_main_element
 ---
+<a href="http://goo.gl/oceuA">
+<img src="http://maps.google.com/maps/api/staticmap?center=42.338396,-71.087902&amp;zoom=16&amp;markers=color:red|42.338396,-71.087902&amp;size=400x400&amp;sensor=false" title="Open in google maps" alt="Map centered on snell library with a red marker"> 
+</a>
 
+#### Address
 
-### Hours
-
-**Snell Library is open 24/7** for current NU students, faculty, and staff with valid NU ID. 
- 
-**Summer Regular Service Hours:** 
-
-* Monday - Thursday: 7:45am - 11pm
-* Friday: 7:45am - 9pm
-* Saturday: 9am - 5pm
-* Sunday: 10am - 11pm 
-
-**Subject to change** during breaks, holidays, and weather emergencies.  Call (617) 373-4976 for updates. 
-
-### Directions 
-
-**Address**
-
-Snell Library  
+[Snell Library  
 360 Huntington Ave.  
-Boston, MA 02115  
+Boston, MA 02115](http://goo.gl/oceuA)
 
-[Campus Map](http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=snell+library,+northeastern+university&sll=42.342258,-71.098087&sspn=0.012101,0.020084&ie=UTF8&hq=snell+library,+northeastern+university&hnear=&ll=42.340497,-71.092873&spn=0.011705,0.020084&z=16&iwloc=A) (Google)
+#### Public Transportation
 
-**Public Transportation:** 
+* Orange Line to Ruggles  
+* Green Line to Northeastern  (E Line) 
+* Bus #39 to Northeastern and numerous buses to Ruggles Station  
 
-Orange Line to Ruggles  
-Green Line to Northeastern  (E Line) 
-Bus #39 to Northeastern and numerous buses to Ruggles Station  
+[MBTA](http://mbta.com)
 
-See also [mbta.com](mbta.com) 
-
-**By Car:**
+#### By Car
 
 Interstate I-93 to Exit 18 (Mass Ave/Roxbury) to Melnea Cass Boulevard to Columbus Ave. 
  
-Parking:
+#### Parking
 
-Renaissance Garage  
+[Renaissance Garage  
 835 Columbus Ave.   
-Boston, MA 02120  
+Boston, MA 02120](http://goo.gl/Od6Pk)
 
-[Home]( {% post_url 2013-07-11-index %} ) 
