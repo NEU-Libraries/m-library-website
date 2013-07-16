@@ -68,7 +68,7 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
 
 
-  grunt.registerTask('default',  ['copy:fontAwesome','recess','uglify:prod','jekyll:serve' ]);
+  grunt.registerTask('default',  ['copy:fontAwesome','recess','uglify:prod', 'jekyll:serve',]);
   grunt.registerTask('jekll-serve', ['jekyll:serve']);
   grunt.registerTask('buildjs-dev', ['uglify:dev']);
 

@@ -6,6 +6,6 @@ exclude: ['Gruntfile.js', 'package.json', 'node_modules', 'readme.md']
 
 
 baseurl: "http://nu-lts.github.io/m-library-website/"
-
+desktopsite: "http://library.northeastern.edu"
 author:
   name: "Northeastern University Libraries"
