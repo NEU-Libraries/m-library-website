@@ -16,9 +16,9 @@ Boston, MA 02115](http://goo.gl/oceuA)
 
 #### Public Transportation
 
-* Orange Line to Ruggles  
-* Green Line to Northeastern  (E Line) 
-* Bus #39 to Northeastern and numerous buses to Ruggles Station  
+* Orange Line - Ruggles
+* Green Line - Northeastern  (E Line) 
+* Bus 39 to Northeastern
 
 [MBTA](http://mbta.com)
 
