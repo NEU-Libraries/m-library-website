@@ -1,4 +1,8 @@
 ---
+layout: default
+title: Directions
+permalink: /directions.html
+category: navbar_main_element
 ---
 
 
@@ -43,4 +47,4 @@ Renaissance Garage
 835 Columbus Ave.   
 Boston, MA 02120  
 
-[Go Back](http://www.lib.neu.edu/m/index.html) 
+[Home]( {% post_url 2013-07-11-index %} ) 

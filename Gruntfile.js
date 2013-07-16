@@ -15,7 +15,7 @@ module.exports = function (grunt) {
     },
     watch: {
       less: {
-        files: "_less/*.less",
+        files: "_less/**.less",
         tasks: "recess:dist",
       }
 
@@ -30,13 +30,46 @@ module.exports = function (grunt) {
         },
       },
     },
+    copy: {
+      fontAwesome: {
+        src: '_font_awesome/font/*',
+        dest: 'font/',
+        expand: true,
+        flatten: true,
+      }
+    },
+    uglify:{
+      dev: {
+        options: {
+          beautify: true
+        },
+        files: {
+        'js/main.js': ['_bootstrap/js/*.js','js/app.js'],
+        },
+      },
+      prod: {
+        options: {
+          compress: true,
+          mangle: true,
+        },
+        files: {
+        'js/main.js': ['_bootstrap/js/*.js','js/app.js'],
+        },
+      },
+    }
+
 
   });
 
   grunt.loadNpmTasks('grunt-recess');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-jekyll');
-  grunt.registerTask('default',  ['recess', 'jekyll:serve' ]);
+  grunt.loadNpmTasks('grunt-contrib-copy');
+  grunt.loadNpmTasks('grunt-contrib-uglify');
+
+
+  grunt.registerTask('default',  ['copy:fontAwesome','recess','uglify:prod','jekyll:serve' ]);
   grunt.registerTask('jekll-serve', ['jekyll:serve']);
+  grunt.registerTask('buildjs-dev', ['uglify:dev']);
 
 };

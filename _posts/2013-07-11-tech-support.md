@@ -1,4 +1,7 @@
 ---
+layout: default
+title: Tech Support
+permalink: /tech_support.html
 ---
 
 ### Tech Support 
@@ -13,4 +16,4 @@ Available 24/7
 
 Email [Library-Help@neu.edu](mailto:Library-Help@neu.edu) 
 
-[Go Back](http://www.lib.neu.edu/m/text_call_lib.html) 
+[Back to Ask a Question]( {% post_url 2013-07-11-ask-a-question %} ) 

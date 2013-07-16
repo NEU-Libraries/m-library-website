@@ -1,4 +1,7 @@
 ---
+layout: default 
+title: Call a Librarian
+permalink: /call_a_librarian.html
 ---
 
 ### Call a Librarian 
@@ -13,4 +16,4 @@ Sun: 12:00pm-8:00pm
 
 *(Subject to change during intersessions and holidays)*
 
-[Go Back](http://www.lib.neu.edu/m/text_call_lib.html) 
+[Back to Ask a Question]( {% post_url 2013-07-11-ask-a-question %} ) 
