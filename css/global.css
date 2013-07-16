@@ -2531,7 +2531,6 @@ button.close {
 .nav {
   padding-left: 0;
   margin-bottom: 0;
-  margin-left: 0;
   list-style: none;
 }
 
@@ -3471,7 +3470,6 @@ button.close {
   display: none;
   overflow: auto;
   overflow-y: scroll;
-  -webkit-overflow-scrolling: touch;
 }
 
 .modal.fade {
@@ -6448,15 +6446,8 @@ a [class*=" icon-"] {
   content: "\f18b";
 }
 
-html {
-  background-color: #e9e8e5;
-}
-
 body {
-  padding: 0 0.5em;
-  margin: 0 0.5em;
-  background-color: #FFFFFF;
-  border: #999999 1px solid;
+  padding: 0 1em;
 }
 
 img {
@@ -6516,7 +6507,7 @@ td.navbar label {
 
 .navbar form {
   position: relative;
-  max-width: 85%;
+  max-width: 80%;
   min-height: 1px;
   padding-right: 15px;
   padding-right: 0;
