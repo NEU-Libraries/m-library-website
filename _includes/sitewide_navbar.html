@@ -1,14 +1,36 @@
 <nav class="navbar">
-  <a class='navbar-brand' href='/'>ICON HERE</a>
-  <ul class='nav navbar-nav'>
-    <li>
-      <a href= {% post_url 2013-07-11-directions %}>Directions</a>
-    </li>
-    <li>
-      <a href={% post_url 2013-07-11-ask-a-question %}>Ask a Question</a>
-    </li>
-    <li>
-      <a href={% post_url 2013-07-11-news-and-events %}>News and Events</a>
-    </li>
-  </ul>
+  <div class="container">
+    <form class="navbar-form pull-left ">
+      <!-- <label for="search" class="text-hide">Search</label> -->
+      <label for="search" class="text-hide">Keywords</label>
+      <input type="text" name="search" id="search" class="" placeholder="Search keywords">
+      <select name="search_scope" title="see more options" class="">
+        <option value="everything_scope">Library Catalogs + Articles</option>
+        <option value="nu_scope">Library Catalogs</option>
+        <option value="nu_law">Law Library Catalog</option>
+        <option value="nu_cr">Course Reserves</option>
+      </select>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+
+    <div class="nav-collapse collapse navbar-responsive-collapse">
+      <ul class='nav navbar-nav pull-right'>
+        <li>
+          <a href= {% post_url 2013-07-11-directions %}>Directions</a>
+        </li>
+        <li>
+          <a href={% post_url 2013-07-11-ask-a-question %}>Ask a Question</a>
+        </li>
+        <li>
+          <a href={% post_url 2013-07-11-news-and-events %}>News and Events</a>
+        </li>
+      </ul>
+    </div>
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+  </div>
+
 </nav>

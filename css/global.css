@@ -6468,3 +6468,59 @@ header a small {
 .no-svg .brand-logo {
   background-image: url(../images/library-logo/nu-libraries-lockup.png);
 }
+
+.navbar label {
+  display: none !important;
+}
+
+tr.navbar label {
+  display: none !important;
+}
+
+th.navbar label,
+td.navbar label {
+  display: none !important;
+}
+
+.navbar form {
+  position: relative;
+  max-width: 85%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (min-width: 768px) {
+  .navbar form {
+    float: left;
+    width: 50%;
+  }
+}
+
+.navbar input,
+.navbar select {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media (min-width: 768px) {
+  .navbar input,
+  .navbar select {
+    float: left;
+    width: 33.33333333333333%;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar input,
+  .navbar select {
+    margin-bottom: 0;
+  }
+}
