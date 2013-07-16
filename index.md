@@ -3,5 +3,3 @@ layout: homepage
 title: Home
 ---
 
-
-

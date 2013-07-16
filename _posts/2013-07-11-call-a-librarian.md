@@ -1,12 +1,12 @@
 ---
-layout: default 
+layout: post 
 title: Call a Librarian
 permalink: /call_a_librarian.html
+published: true
 ---
 
-### Call a Librarian 
 
-Call **617-373-2356** 
+Call **(617)373-2356** 
 
 Librarians are available to answer questions:
 
@@ -16,4 +16,3 @@ Sun: 12:00pm-8:00pm
 
 *(Subject to change during intersessions and holidays)*
 
-[Back to Ask a Question]( {% post_url 2013-07-11-ask-a-question %} ) 

@@ -1,17 +1,7 @@
-<nav class="navbar">
+<div class="row">
+<nav class="navbar col-lg-12">
   <div class="container">
-    <form class="navbar-form pull-left ">
-      <!-- <label for="search" class="text-hide">Search</label> -->
-      <label for="search" class="text-hide">Keywords</label>
-      <input type="text" name="search" id="search" class="" placeholder="Search keywords">
-      <select name="search_scope" title="see more options" class="">
-        <option value="everything_scope">Library Catalogs + Articles</option>
-        <option value="nu_scope">Library Catalogs</option>
-        <option value="nu_law">Law Library Catalog</option>
-        <option value="nu_cr">Course Reserves</option>
-      </select>
-      <button type="submit" class="btn btn-default">Submit</button>
-    </form>
+    {% include navbar-searchform.html %}
 
     <div class="nav-collapse collapse navbar-responsive-collapse">
       <ul class='nav navbar-nav pull-right'>
@@ -34,3 +24,4 @@
   </div>
 
 </nav>
+</div>
