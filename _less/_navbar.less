@@ -1,10 +1,11 @@
 .navbar{
+  border-bottom: 3px @brand-primary solid;
   label{
   .hidden-sm;
   }
   form{
-    max-width: 80%;
-    .make-column(6);
+
+
     padding-left: 0;
     padding-right: 0;
 
@@ -22,6 +23,7 @@
 }
 .navbar-toggle{
   background-color: @navbar-toggle-bg;
+  border: @navbar-toggle-color 3px solid;
   .icon-bar{
     background-color: @navbar-toggle-color;
   }
@@ -32,3 +34,6 @@
   }
 }
 
+.navbar-brand{
+  max-width: 250px;
+}

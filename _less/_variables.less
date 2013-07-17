@@ -241,11 +241,11 @@
 
 // Basics of a navbar
 @navbar-height:                    50px;
-@navbar-color:                     #FFFFFF;
-@navbar-bg:                        @brand-primary;
+@navbar-color:                     @brand-primary;
+@navbar-bg:                        #FFFFFF;//@brand-primary;
 
 // Navbar links
-@navbar-link-color:                #FFFFFF;
+@navbar-link-color:                @brand-primary;//#FFFFFF;
 @navbar-link-hover-color:          darken(@navbar-link-color, 10%);;
 @navbar-link-hover-bg:             transparent;
 @navbar-link-active-color:         #555;
@@ -284,9 +284,9 @@
 @navbar-inverse-search-placeholder-color:   #ccc;
 
 
-@navbar-toggle-bg: @brand-primary;
-@navbar-toggle-bg-hover: darken(@brand-primary, 10%);
-@navbar-toggle-color:  #FFFFF;
+@navbar-toggle-bg: #FFFFF;
+@navbar-toggle-bg-hover: @gray;
+@navbar-toggle-color:  @brand-primary;
 
 
 

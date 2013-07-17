@@ -2772,7 +2772,7 @@ button.close {
   padding-right: 15px;
   padding-left: 15px;
   margin-bottom: 20px;
-  background-color: #cc0000;
+  background-color: #ffffff;
   border-radius: 4px;
 }
 
@@ -2805,13 +2805,13 @@ button.close {
   padding-top: 14.5px;
   padding-bottom: 14.5px;
   line-height: 20px;
-  color: #ffffff;
+  color: #cc0000;
   border-radius: 4px;
 }
 
 .navbar-nav > li > a:hover,
 .navbar-nav > li > a:focus {
-  color: #e6e6e6;
+  color: #990000;
   background-color: transparent;
 }
 
@@ -2819,7 +2819,7 @@ button.close {
 .navbar-nav > .active > a:hover,
 .navbar-nav > .active > a:focus {
   color: #555555;
-  background-color: #990000;
+  background-color: #e6e6e6;
 }
 
 .navbar-nav > .disabled > a,
@@ -2864,13 +2864,13 @@ button.close {
   font-size: 18px;
   font-weight: 500;
   line-height: 21px;
-  color: #ffffff;
+  color: #cc0000;
   text-align: center;
 }
 
 .navbar-brand:hover,
 .navbar-brand:focus {
-  color: #e6e6e6;
+  color: #990000;
   text-decoration: none;
   background-color: transparent;
 }
@@ -2934,15 +2934,15 @@ button.close {
 
 .navbar-nav > .dropdown > a:hover .caret,
 .navbar-nav > .dropdown > a:focus .caret {
-  border-top-color: #e6e6e6;
-  border-bottom-color: #e6e6e6;
+  border-top-color: #990000;
+  border-bottom-color: #990000;
 }
 
 .navbar-nav > .open > a,
 .navbar-nav > .open > a:hover,
 .navbar-nav > .open > a:focus {
   color: #555555;
-  background-color: #990000;
+  background-color: #e6e6e6;
 }
 
 .navbar-nav > .open > a .caret,
@@ -2953,8 +2953,8 @@ button.close {
 }
 
 .navbar-nav > .dropdown > a .caret {
-  border-top-color: #ffffff;
-  border-bottom-color: #ffffff;
+  border-top-color: #cc0000;
+  border-bottom-color: #cc0000;
 }
 
 .navbar-nav.pull-right > li > .dropdown-menu,
@@ -3085,11 +3085,11 @@ button.close {
 }
 
 .navbar-link {
-  color: #ffffff;
+  color: #cc0000;
 }
 
 .navbar-link:hover {
-  color: #e6e6e6;
+  color: #990000;
 }
 
 .navbar-inverse .navbar-link {
@@ -6472,7 +6472,7 @@ header.row {
 .brand-logo {
   display: block;
   width: 400px;
-  height: 58px;
+  height: 40px;
   max-width: 100%;
   font: 0/0 a;
   color: transparent;
@@ -6492,6 +6492,10 @@ header.row {
   background-image: url(../images/library-logo/nu-libraries-lockup.png);
 }
 
+.navbar {
+  border-bottom: 3px #cc0000 solid;
+}
+
 .navbar label {
   display: none !important;
 }
@@ -6506,20 +6510,8 @@ td.navbar label {
 }
 
 .navbar form {
-  position: relative;
-  max-width: 80%;
-  min-height: 1px;
-  padding-right: 15px;
   padding-right: 0;
-  padding-left: 15px;
   padding-left: 0;
-}
-
-@media (min-width: 768px) {
-  .navbar form {
-    float: left;
-    width: 50%;
-  }
 }
 
 .navbar input,
@@ -6551,15 +6543,20 @@ td.navbar label {
 }
 
 .navbar-toggle {
-  background-color: #cc0000;
-  border-color: #ffffff FF;
+  background-color: #ffffff FF;
+  border: #cc0000 3px solid;
+  border-color: #cc0000;
 }
 
 .navbar-toggle .icon-bar {
-  background-color: #ffffff FF;
+  background-color: #cc0000;
 }
 
 .navbar-toggle:hover,
 .navbar-toggle:focus {
-  background-color: #990000;
+  background-color: #555555;
+}
+
+.navbar-brand {
+  max-width: 250px;
 }
