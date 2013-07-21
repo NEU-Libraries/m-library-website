@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro|Caesar+Dressing|Noto+Serif|Source+Code+Pro|Roboto|Scada);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro|Noto+Serif);
 
 /*!
  * Bootstrap v3.0.0
@@ -6461,6 +6461,7 @@ h5,
 h6,
 .h6 {
   font-family: 'Noto Serif', Times, 'Times New Roman', Georgia, serif;
+  color: #2c3e50;
 }
 
 body {
@@ -6569,13 +6570,18 @@ td.navbar label {
   background-color: #cc0000;
 }
 
+.navbar-toggle .icon-bar:hover,
+.navbar-toggle .icon-bar:focus {
+  background-color: #FFF;
+}
+
 .navbar-toggle:hover,
 .navbar-toggle:focus {
   background-color: #555555;
 }
 
 .navbar-brand {
-  max-width: 14em;
+  max-width: 12em;
   padding: 0.5em;
   margin-right: 0;
   margin-left: 0;
