@@ -24,16 +24,11 @@
 .navbar-toggle{
   background-color: @navbar-toggle-bg;
   border: @navbar-toggle-color 3px solid;
-  .icon-bar{
-    background-color: @navbar-toggle-color;
-    &:hover,
-    &:focus{
-      background-color: #FFF;
-    }
-  }
   border-color: @navbar-toggle-color;
+  color: @navbar-toggle-color;
   &:hover,
   &:focus{
+    color: @navbar-toggle-bg;
     background-color: @navbar-toggle-bg-hover;
   }
 }
@@ -43,4 +38,9 @@
   margin-left: 0;
   padding: 0.5em;
   max-width: 12em;
+}
+
+.navbar .submit.container{
+  padding-right: 0;
+  padding-left: 0;
 }

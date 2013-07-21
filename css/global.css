@@ -6561,23 +6561,16 @@ td.navbar label {
 }
 
 .navbar-toggle {
-  background-color: #ffffff FF;
+  color: #cc0000;
+  background-color: #ffffff;
   border: #cc0000 3px solid;
   border-color: #cc0000;
 }
 
-.navbar-toggle .icon-bar {
-  background-color: #cc0000;
-}
-
-.navbar-toggle .icon-bar:hover,
-.navbar-toggle .icon-bar:focus {
-  background-color: #FFF;
-}
-
 .navbar-toggle:hover,
 .navbar-toggle:focus {
-  background-color: #555555;
+  color: #ffffff;
+  background-color: #cc0000;
 }
 
 .navbar-brand {
@@ -6585,4 +6578,9 @@ td.navbar label {
   padding: 0.5em;
   margin-right: 0;
   margin-left: 0;
+}
+
+.navbar .submit.container {
+  padding-right: 0;
+  padding-left: 0;
 }
