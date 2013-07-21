@@ -15,7 +15,7 @@ title: Home
         <a href="#{{post.id}}" data-toggle="collapse" data-parent="#articles">{{ post.title}}</a>
       </h2>  
     </header>
-    <section id="{{post.id}}" class="collapse">
+    <section id="{{post.id}}" class="collapse in">
       {{ post.content }}
     </section>
   </article>

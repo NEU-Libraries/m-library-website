@@ -6466,6 +6466,7 @@ h6,
 
 body {
   padding: 0 1em;
+  margin-top: 2em;
 }
 
 img {
@@ -6574,7 +6575,8 @@ td.navbar label {
 }
 
 .navbar-brand {
-  max-width: 12em;
+  width: 90%;
+  max-width: 14em;
   padding: 0.5em;
   margin-right: 0;
   margin-left: 0;
@@ -6583,4 +6585,8 @@ td.navbar label {
 .navbar .submit.container {
   padding-right: 0;
   padding-left: 0;
+}
+
+.navbar-fixed-top {
+  box-shadow: 2em 0 1em #999999;
 }
