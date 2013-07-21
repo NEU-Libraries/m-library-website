@@ -6597,6 +6597,11 @@ footer {
   background-color: #ecf0f1;
 }
 
+footer nav li {
+  float: left;
+  text-align: center;
+}
+
 article .page-header a {
   color: #2c3e50;
 }
