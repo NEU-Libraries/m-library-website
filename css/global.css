@@ -6584,3 +6584,17 @@ td.navbar label {
   padding-right: 0;
   padding-left: 0;
 }
+
+footer {
+  margin-right: -15px;
+  margin-left: -15px;
+  background-color: #ecf0f1;
+}
+
+article .page-header a {
+  color: #2c3e50;
+}
+
+article .page-header a:hover {
+  color: #1a242f;
+}
