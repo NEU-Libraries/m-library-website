@@ -69,6 +69,7 @@ module.exports = function (grunt) {
 
 
   grunt.registerTask('default',  ['copy:fontAwesome','recess','uglify:prod', 'jekyll:serve',]);
+  grunt.registerTask('dev',['copy:fontAwesome','recess','uglify:dev','jekyll:serve'] );
   grunt.registerTask('jekll-serve', ['jekyll:serve']);
   grunt.registerTask('buildjs-dev', ['uglify:dev']);
 

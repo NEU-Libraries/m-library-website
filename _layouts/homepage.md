@@ -4,18 +4,15 @@ title: Home
 ---
 
 <div id="articles">
-{% for post in site.posts %}
-
-  {% if post.id != null  %}
-    {% assign post.id  =  post.title | downcase | replace: " " ,"-" %} 
-  {% endif %}
+{% for post in site.posts reversed %}
+  
   <article>
     <header>
       <h2 class="page-header">
-        <a href="#{{post.id}}" data-toggle="collapse" data-parent="#articles">{{ post.title}}</a>
+        <a href="#{{forloop.index0}}" data-toggle="collapse" data-parent="#articles">{{ post.title}}</a>
       </h2>  
     </header>
-    <section id="{{post.id}}" class="collapse in">
+    <section id="{{forloop.index0}}" class="collapse">
       {{ post.content }}
     </section>
   </article>
