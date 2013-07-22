@@ -1,6 +1,5 @@
 ---
 layout: homepage
-title: Home
+title: Northeastern Libraries - Mobile Site
 ---
-
 
