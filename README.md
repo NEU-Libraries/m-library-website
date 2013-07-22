@@ -1,4 +1,12 @@
-# readme.md
+README.md
+=========
+
+## Content
+
+1. Fork a copy of the site to your github account.
+2. Modify the conent in the _posts directory.
+3. Commit the changes
+4. Submit a pull request to the master repo.
 
 
 ## Developing
