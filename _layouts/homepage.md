@@ -2,8 +2,12 @@
 layout: default
 title: Home
 ---
-
+<a href="{{site.desktopsite}}" title="Visit Desktop Version of the site" class="btn btn-block btn-info">
+  <span class="icon-desktop icon-large"></span> Visit Desktop Site
+</a>
+{{ content }}
 <div id="articles">
+
 {% for post in site.posts reversed %}
   
   <article>
@@ -19,7 +23,7 @@ title: Home
 {% endfor %}
 </div>
 
-{{ content }}
+
 
 
 

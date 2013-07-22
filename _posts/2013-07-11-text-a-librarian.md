@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Text a Librarian 
 permalink: /text_a_librarian.html 
 ---
