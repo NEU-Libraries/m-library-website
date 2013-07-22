@@ -2,8 +2,8 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-3">
-      <a href="{{ site.parent-url }}" >
-        <img src="/assets/brand-footer-image.svg "/>
+      <a href="{{ site.parent-url }}" class="brand-footer-image" >
+          <img src="{{ site.baseurl }}assets/brand-footer-image.svg "/>
       </a>
       </div>
       <div class="col-sm-6">
@@ -20,19 +20,19 @@
       </div>
       <div class="col-sm-3">
       <nav>
-        <ul class="nav">
+        <ul class="nav social-links">
           <li>
-            <a href="http://www.facebook.com/northeastern">
+            <a href="http://www.facebook.com/northeastern" class="facebook">
               <span class="icon-facebook-sign"></span>
             </a>
           </li>
           <li>
-            <a href="http://www.twitter.com/northeastern">
+            <a href="http://www.twitter.com/northeastern" class="twitter">
               <span class="icon-twitter-sign"></span>
             </a>
           </li>
           <li>
-            <a href="http://www.youtube.com/northeastern">
+            <a href="http://www.youtube.com/northeastern" class="youtube">
               <span class="icon-youtube-sign"></i>
             </a>
           </li>
@@ -46,7 +46,7 @@
           <small>360 Huntington Ave., Boston, Massachusetts 02115 · 617.373.2000 · TTY 617.373.3768</small>
         </p>
         <p class="text-center">
-          <small>© 2013 Northeastern University</small>
+          <small>&copy; {{ site.time | date: "%Y" }} Northeastern University</small>
         </p>
       </div>
     </div>
