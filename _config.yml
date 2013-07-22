@@ -2,14 +2,16 @@ name: "Northestern University Libraries"
 safe: true
 lsi: false
 pygments: true
-exclude: ['Gruntfile.js', 'package.json', 'node_modules', 'readme.md']
+exclude: ['Gruntfile.js', 'package.json', 'node_modules', 'README.md', 'INSTALL.md']
 markdown: rdiscount
-
+parent-url: "http://northeastern.edu"
 baseurl: "http://nu-lts.github.io/m-library-website/"
-desktopsite: "http://library.northeastern.edu"
+desktopsite: "http://library.northeastern.edu?device=desktop"
 author:
   name: "Northeastern University Libraries"
 primo:
   url: "http://onesearch.northeastern.edu"
   institution-code: "NEU"
   view-code: "NU"
+
+

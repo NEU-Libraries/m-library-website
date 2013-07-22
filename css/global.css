@@ -6598,7 +6598,27 @@ footer {
 
 footer nav li {
   float: left;
-  text-align: center;
+}
+
+.social-links {
+  font-size: 1.7em;
+}
+
+.facebook {
+  color: #3b5998;
+}
+
+.twitter {
+  color: #338fbf;
+}
+
+.youtube {
+  color: #cc171e;
+}
+
+.brand-footer-image {
+  display: block;
+  padding: 0.7em;
 }
 
 article .page-header a {
