@@ -1,6 +1,6 @@
 [submodule "bootstrap"]
 	path = _bootstrap
-	url = https://github.com/twitter/bootstrap.git
+	url = https://github.com/twbs/bootstrap.git
 	branch = 3.0.0-wip
 [submodule "Font-Awesome"]
 	path = _font_awesome
