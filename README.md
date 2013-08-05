@@ -1,6 +1,11 @@
 README.md
 =========
 
+##
+to make something a draft, use the front matter 
+`published: false`
+
+See the [Jekyll project documentation](jekyllrb.com)
 ## Content
 
 1. Fork a copy of the site to your github account.
