@@ -2,7 +2,7 @@
 layout: default
 ---
 <a href="{{site.desktopsite}}" title="Visit Desktop Version of the site" class="btn btn-block btn-info">
-  <span class="icon-desktop icon-large"></span> Visit Desktop Site
+  <span class="icon-desktop icon-large"></span> Visit Full Site
 </a>
 {{ content }}
 <div id="articles">
