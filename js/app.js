@@ -7,11 +7,8 @@ function searchPrimo() {
     window.stop();
   }
 }
-
-
 $(function() {
   $('[data-toggle="nuCollapse"]').click(function(){
     var t = $(this).data('target');
-    $(t).toggleClass('in');
-  })
+    $(t).toggle(500);
 });

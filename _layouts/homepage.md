@@ -7,17 +7,15 @@ layout: default
 {{ content }}
 <div id="articles" class="article-list">
 
-
-
 {% for post in site.posts reversed %}
   
   <article>
     <header>
       <h2 class="page-header">
         <a data-toggle="nuCollapse" data-target="#{{forloop.index0}}">{{ post.title}}</a>
-      </h2>  
+      </h2> 
     </header>
-    <section id="{{forloop.index0}}" class="collapse">
+    <section id="{{forloop.index0}}" style="display: none;">
       {{ post.content }}
     </section>
   </article>

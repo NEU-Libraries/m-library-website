@@ -23,7 +23,6 @@ module.exports = function (grunt) {
     jekyll:{
       serve:{
         options: {
-          config: ['_config.yml','_config_dev.yml'],
           server: true,
           baseurl: "/",
           watch: true,

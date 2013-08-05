@@ -3,6 +3,7 @@ layout: post
 title: News and Events
 permalink: /news_and_events.html
 category: navbar_main_element
+id: 4
 ---
 
 #### [Meet the Author and More](http://library.northeastern.edu/news-events)

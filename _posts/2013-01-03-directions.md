@@ -3,7 +3,8 @@ layout: default
 title: Directions
 permalink: /directions.html
 category: navbar_main_element
-weight: 3
+id: 3
+
 ---
 <a href="http://goo.gl/oceuA">
 <img src="http://maps.google.com/maps/api/staticmap?center=42.338396,-71.087902&amp;zoom=16&amp;markers=color:red|42.338396,-71.087902&amp;size=400x400&amp;sensor=false" title="Open in google maps" alt="Map centered on snell library with a red marker"> 
