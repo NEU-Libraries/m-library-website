@@ -5,14 +5,16 @@ layout: default
   <span class="icon-desktop icon-large"></span> Visit Full Site
 </a>
 {{ content }}
-<div id="articles">
+<div id="articles" class="article-list">
+
+
 
 {% for post in site.posts reversed %}
   
   <article>
     <header>
       <h2 class="page-header">
-        <a href="#{{forloop.index0}}" data-toggle="collapse" data-parent="#articles">{{ post.title}}</a>
+        <a data-toggle="nuCollapse" data-target="#{{forloop.index0}}">{{ post.title}}</a>
       </h2>  
     </header>
     <section id="{{forloop.index0}}" class="collapse">
@@ -21,8 +23,4 @@ layout: default
   </article>
 {% endfor %}
 </div>
-
-
-
-
 

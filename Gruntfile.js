@@ -36,6 +36,10 @@ module.exports = function (grunt) {
         dest: 'font/',
         expand: true,
         flatten: true,
+      },
+      bootStrap: {
+        src: '_bootstrap/_gh_pages/dist/js/bootstrap.min.js',
+        dest: 'js/vendor/bootstrap.min.js',
       }
     },
     uglify:{
@@ -44,16 +48,16 @@ module.exports = function (grunt) {
           beautify: true
         },
         files: {
-        'js/main.js': ['_bootstrap/js/*.js','js/app.js'],
+        'js/main.js': ['js/app.js'],
         },
       },
       prod: {
         options: {
           compress: true,
-          mangle: true,
+          mangle: false,
         },
         files: {
-        'js/main.js': ['_bootstrap/js/*.js','js/app.js'],
+        'js/main.js': ['js/app.js'],
         },
       },
     }
@@ -68,7 +72,7 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
 
 
-  grunt.registerTask('default',  ['copy:fontAwesome','recess','uglify:prod', 'jekyll:serve',]);
+  grunt.registerTask('default',  ['copy','recess','uglify:prod', 'jekyll:serve',]);
   grunt.registerTask('dev',['copy:fontAwesome','recess','uglify:dev','jekyll:serve'] );
   grunt.registerTask('jekll-serve', ['jekyll:serve']);
   grunt.registerTask('buildjs-dev', ['uglify:dev']);
