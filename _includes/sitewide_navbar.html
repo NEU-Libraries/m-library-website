@@ -1,17 +1,17 @@
-<div class="row">
+
 <nav class="navbar navbar-fixed-top">
   <div class="container">
 
     <a href="{{site.baseurl}}" class="navbar-brand">
       <img src="{{site.baseurl}}assets/library-logo/nu-libraries-lockup-color.svg" alt="Northeastern University, University Libraries"/>
     </a>
-    <div class="nav-collapse collapse navbar-responsive-collapse">
+    <div class="nav-collapse collapse navbar-responsive-collapse" id="NavbarSearchForm" >
       {% include navbar-searchform.html %}
     </div>
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+    <button type="button" class="navbar-toggle" data-toggle="nuCollapse" data-target="#NavbarSearchForm">
         <span class="icon-search"></span>
     </button>
   </div>
 
 </nav>
-</div>
+

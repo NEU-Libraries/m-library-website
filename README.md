@@ -1,17 +1,15 @@
 README.md
 =========
 
-##
-to make something a draft, use the front matter 
-`published: false`
+## Content 
+
+* to make something a draft, use the front matter `published: false`
+* Order of posts are done by the date in reverse chronology. Post file names should be prefixed like this for the weight in the list on the site:  2013-01-01 would be before 2013-01-02.
+
+
+
 
 See the [Jekyll project documentation](jekyllrb.com)
-## Content
-
-1. Fork a copy of the site to your github account.
-2. Modify the conent in the _posts directory.
-3. Commit the changes
-4. Submit a pull request to the master repo.
 
 
 ## Developing

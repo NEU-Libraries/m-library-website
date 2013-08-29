@@ -1,19 +1,19 @@
-<form class="navbar-form col-sm-6 pull-right" name="searchForm" role="search" method="get" action="{{ site.primo.url }}/primo_library/libweb/action/dlSearch.do" enctype="application/x-www-form-urlencoded; charset=utf-8" target="_self"  onsubmit="searchPrimo()">
-  <input name="institution" value="{{ site.primo.institution-code }}" type="hidden">
-  <input name="vid" value="{{ site.primo.view-code }}" type="hidden">
-  <input name="group" value="GUEST" type="hidden">
-  <input name="onCampus" value="true" type="hidden">
-  <input name="displayMode" value="full" type="hidden">
-  <input type="hidden" id="primoQuery" name="query" />
-  <label for="primoQueryTemp">Keywords</label>
-  <input type="text" name="primoQueryTemp" class="form-control"id="primoQueryTemp" placeholder="Search books, articles, videos, more..." >
-  <select name="search_scope" title="see more options" class="form-control">
-    <option value="everything_scope">Library Catalogs + Articles</option>
-    <option value="nu_scope">Library Catalogs</option>
-    <option value="nu_law">Law Library Catalog</option>
-    <option value="nu_cr">Course Reserves</option>
-  </select>
-  <div class="col-sm-3 submit container">
-    <button type="submit" class="btn btn-default btn-block" onclick="searchPrimo()" >Go</button>
-  </div>
+<form class="navbar-form col-sm-6 pull-right" name="searchForm" role="search" method="get" action="{{%20site.primo.url%20}}/primo_library/libweb/action/dlSearch.do" enctype="application/x-www-form-urlencoded; charset=utf-8" target="_self" onsubmit="searchPrimo()">
+    <input name="institution" value="{{ site.primo.institution-code }}" type="hidden"> <input name="vid" value="{{ site.primo.view-code }}" type="hidden"> <input name="group" value="GUEST" type="hidden"> <input name="onCampus" value="true" type="hidden"> <input name="displayMode" value="full" type="hidden"> <input type="hidden" id="primoQuery" name="query"> <label for="primoQueryTemp">Keywords</label> <input type="text" name="primoQueryTemp" class="form-control" id="primoQueryTemp" placeholder="Search books, articles, videos, more..."> <select name="search_scope" title="see more options" class="form-control">
+        <option value="everything_scope">
+            Library Catalogs + Articles
+        </option>
+        <option value="nu_scope">
+            Library Catalogs
+        </option>
+        <option value="nu_law">
+            Law Library Catalog
+        </option>
+        <option value="nu_cr">
+            Course Reserves
+        </option>
+    </select>
+    <div class="col-sm-3 submit">
+        <button type="submit" class="btn btn-default btn-block" onclick="searchPrimo()">Go</button>
+    </div>
 </form>

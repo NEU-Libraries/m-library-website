@@ -11,4 +11,5 @@ $(function() {
   $('[data-toggle="nuCollapse"]').click(function(){
     var t = $(this).data('target');
     $(t).toggle(500);
+  });
 });
