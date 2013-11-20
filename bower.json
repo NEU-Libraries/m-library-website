@@ -1,0 +1,27 @@
+{
+  "name": "m.library.northeastern.edu",
+  "version": "0.1.1",
+  "homepage": "https://github.com/nu-lts/m.library.northeastern.edu",
+  "authors": [
+    "Steven Bassett <steven.j.bassett@gmail.com>"
+  ],
+  "description": "Jekyll site for the Northeastern University Libraries.",
+  "main": "index.md",
+  "keywords": [
+    "Jekyll",
+    "Bootstrap"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/_bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.0.2",
+    "font-awesome": "~4.0.3"
+  }
+}

@@ -1,17 +1,18 @@
-
-<nav class="navbar navbar-fixed-top">
+<header class="navbar navbar-fixed-top navbar-default" role="banner">
   <div class="container">
-
-    <a href="{{site.baseurl}}" class="navbar-brand">
-      <img src="{{site.baseurl}}assets/library-logo/nu-libraries-lockup-color.svg" alt="Northeastern University, University Libraries"/>
-    </a>
-    <div class="nav-collapse collapse navbar-responsive-collapse" id="NavbarSearchForm" >
-      {% include navbar-searchform.html %}
-    </div>
-    <button type="button" class="navbar-toggle" data-toggle="nuCollapse" data-target="#NavbarSearchForm">
+    <div class="navbar-header">
+      <a href="{{site.baseurl}}" class="navbar-brand">
+        <h1 class="nu-libraries-logo">Northeastern University Libraries</h1>
+      </a>
+      <button type="button" class="navbar-toggle" data-toggle="nuCollapse" data-target="#NavbarSearchForm">
+        <span class="sr-only">Toggle Search Form</span>
         <span class="icon-search"></span>
-    </button>
+      </button>
+    </div>
+    <nav class="collapse navbar-collapse" id="NavbarSearchForm" role="navigation">
+      {% include navbar-searchform.html %}
+    </nav>
   </div>
 
-</nav>
+</header>
 
