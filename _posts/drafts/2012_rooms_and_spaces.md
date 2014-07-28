@@ -7,9 +7,9 @@ published: true
 #### Self-Service Room Booking
 [Log in to NUSSO](https://nuevents.neu.edu/MobileHome.aspx) (use myNEU username and password) to reserve 
 
-* Group study rooms on all floors of Snell Library
-* Advanced workstations on level 2
-* Assorted other rooms and spaces
+* Group study rooms for students (all floors)
+* Advanced workstations (DMC, level 2)
+* Assorted other rooms and spaces (varies)
 
 You may also request a session in one of our recording studios.   A library staff member will follow up to help you plan your recording session. 
 
