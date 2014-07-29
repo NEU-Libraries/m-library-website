@@ -6,9 +6,6 @@ category: navbar_main_element
 id: 4
 ---
 
-#### [Meet the Author and More](http://library.northeastern.edu/news-events)
-Readings, dialogue on significant contemporary questions, and other events sponsored by Snell Library and our campus partners.
-
 
 #### [Library Calendar](http://library.northeastern.edu/news-events/calendar) 
 RSVP, and save to your calendar 
