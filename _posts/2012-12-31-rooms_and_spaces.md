@@ -5,7 +5,7 @@ permalink: /rooms_and_spaces.html
 published: true
 ---
 #### Self-Service Room Booking
-[Log in to NUSSO](https://nuevents.neu.edu/MobileHome.aspx) (use myNEU username and password) to reserve 
+[Log in to NUSSO](https://https://nuevents.neu.edu/Login.aspx) (use myNEU username and password) to reserve 
 
 * Group study rooms for students (all floors)
 * Advanced workstations (DMC, level 2)
