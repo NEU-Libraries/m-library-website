@@ -3,7 +3,7 @@ safe: true
 lsi: false
 pygments: true
 exclude: ['Gruntfile.js', 'package.json', 'node_modules', 'README.md', 'INSTALL.md']
-markdown: rdiscount
+markdown:kramdown
 parent-url: "http://northeastern.edu"
 baseurl: "http://m.library.northeastern.edu/"
 desktopsite: "http://library.northeastern.edu?device=desktop"
