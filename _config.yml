@@ -4,13 +4,13 @@ lsi: false
 pygments: true
 exclude: ['Gruntfile.js', 'package.json', 'node_modules', 'README.md', 'INSTALL.md']
 markdown: kramdown
-parent-url: "http://northeastern.edu"
-baseurl: "http://m.library.northeastern.edu/"
-desktopsite: "http://library.northeastern.edu?device=desktop"
+parent-url: "https://northeastern.edu"
+baseurl: "https://m.library.northeastern.edu/"
+desktopsite: "https://library.northeastern.edu?device=desktop"
 author:
   name: "Northeastern University Libraries"
 primo:
-  url: "http://onesearch.northeastern.edu"
+  url: "https://onesearch.northeastern.edu"
   institution-code: "NEU"
   view-code: "NU"
 
