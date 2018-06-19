@@ -10,7 +10,7 @@ desktopsite: "https://library.northeastern.edu?device=desktop"
 author:
   name: "Northeastern University Libraries"
 primo:
-  url: "https://onesearch.northeastern.edu"
+  url: "https://onesearch.library.northeastern.edu"
   institution-code: "NEU"
   view-code: "NU"
 
