@@ -7,10 +7,10 @@ id: 4
 ---
 
 
-#### [Library Calendar](http://northeastern.libcal.com) 
+#### [Library Calendar](https://northeastern.libcal.com) 
 RSVP, and save to your calendar 
 
-#### [Snippets](http://www.lib.neu.edu/snippets/) 
+#### [LibraryNews](https://librarynews.northeastern.neu.edu) 
 Our Library blog 
 
 {% include twitter_widget.html %}
