@@ -2,7 +2,7 @@
 layout: post
 title: Reserve A Room
 permalink: /rooms_and_spaces.html
-published: true
+published: false
 ---
 #### Self-Service Room Booking
 [Log in to NUSSO](https://nuevents.neu.edu/Login.aspx) (use myNEU username and password) to reserve 
